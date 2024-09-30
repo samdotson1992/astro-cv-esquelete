@@ -10,6 +10,6 @@ export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
   site: 'https://samdotson1992.github.io',
   base: '',
-  output: "server",
+  output: "static",
   adapter: vercel()
 });
