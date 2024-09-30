@@ -9,6 +9,5 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
   site: 'https://samdotson1992.github.io',
-  output: "static",
-  adapter: vercel()
+  output: "hybrid"
 });
