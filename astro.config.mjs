@@ -10,5 +10,6 @@ export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
   build:{
   site: 'https://samdotson1992.github.io/'},
-  output: "static"
+  output: "static",
+  base: "astro-cv-esquelete"
 });
