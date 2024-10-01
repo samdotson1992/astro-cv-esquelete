@@ -42,12 +42,12 @@ const PDF = "Resume.pdf";
       experience.map((item) => {
         return (
           <Card
-            title={item.frontmatter.title}
+                title={item.frontmatter.title}
             timeframe={item.frontmatter.date}
-            location={item.frontmatter.location}
+            description={item.compiledContent()}
             tags={item.frontmatter.tags}
-            url={item.url}
-            url_name={item.frontmatter.institute}
+            url={item.frontmatter.url}
+            url_name={item.frontmatter.title}
           />
         );
       })

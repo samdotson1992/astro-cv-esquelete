@@ -7,4 +7,4 @@ pronouns: "he/him"
 website: "https://samdotson1992.github.io"
 ---
 
-Experienced Python developer with a focus on data and backend processes. My background is in geospatial analysis with a masters in environmental science.
+Experienced Python developer with a focus on data and backend processes. My background is in geospatial analysis with a masters in environmental science. I've worked on projects ranging from computer vision to vehicle route.
